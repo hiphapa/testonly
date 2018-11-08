@@ -1,0 +1,85 @@
+zingchart.THEME="classic";
+
+var myConfig = {
+    "graphset":[
+        {
+            "type":"rankflow",
+            "plotarea":{
+                "margin":"80 20 20 40"
+            },
+            "title":{
+                "text":"Collaboration challenges by size",
+                "background-color":"#333",
+                "margin-bottom":"20%"
+            },
+            "options":{
+                "sep-space":20,
+                "col-space":"30%",
+                "row-space":"25%", 
+                "style":{
+                    "wrap-text":true,
+                    "rank-left":{
+                        "visible":0
+                    },
+                    "rank-right":{
+                        "visible":0
+                    },
+                    "rank-overall":{
+                        "visible":0
+                    },
+                    "label-overall":{
+                        "visible":0
+                    }
+                },
+                "color-type":"palette",
+                "palette":["#590B02","#F29E02","#db7805","#8b2805","#400C12","#BE5905"]
+            },
+            "scale-x":{
+                "labels":["Price","Quantity","Variations"],
+                "values":["Price","Quantity","Variations"],
+                "item":{
+                  "font-weight":"bold",
+                  "font-size":"14px",
+                  "font-color":"#000"
+                }
+            },
+            "series":[
+                {
+                    "text":"Emerging Small Business",
+                    "ranks":[1,4,4],
+                    "rank":1
+                },
+                {
+                    "text":"AleSmith",
+                    "ranks":[2,2,5],
+                    "rank":2
+                },
+                {
+                    "text":"Alpine<br>Beer Company",
+                    "ranks":[3,5,3],
+                    "rank":3
+                },
+                {
+                    "text":"Ballast Point<br>Brewing & Spirits",
+                    "ranks":[4,3,1],
+                    "rank":4
+                },
+                {
+                    "text":"Green Flash<br>Brewing Company",
+                    "ranks":[3,1,5],
+                    "rank":5
+                }
+            ],
+            "source":{
+                "text":"Source: San Diego Reader"
+            }
+        }
+    ]
+};
+
+zingchart.render({ 
+	id : 'myChart', 
+	data : myConfig, 
+	height: 500, 
+	width: 725 
+});
