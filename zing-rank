@@ -45,27 +45,27 @@ var myConfig = {
             },
             "series":[
                 {
-                    "text":"Collab challenge one",
+                    "text":"rank 1",
                     "ranks":[1,1],
                     "rank":1
                 },
                 {
-                    "text":"Collab challenge two",
+                    "text":"rank 2",
                     "ranks":[2,2],
                     "rank":2
                 },
                 {
-                    "text":"Collab challenge three",
+                    "text":"rank 3",
                     "ranks":[3,5],
                     "rank":3
                 },
                 {
-                    "text":"Collab challenge four",
+                    "text":"rank 4",
                     "ranks":[4,3],
                     "rank":4
                 },
                 {
-                    "text":"Collab challenge five",
+                    "text":"rank 5",
                     "ranks":[5,4],
                     "rank":5
                 }
