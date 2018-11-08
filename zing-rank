@@ -35,8 +35,8 @@ var myConfig = {
                 "palette":["#590B02","#F29E02","#db7805","#8b2805","#400C12","#BE5905"]
             },
             "scale-x":{
-                "labels":["Price","Quantity","Variations"],
-                "values":["Price","Quantity","Variations"],
+                "labels":["ESB","LENT"],
+                "values":["ESB", "LENT"],
                 "item":{
                   "font-weight":"bold",
                   "font-size":"14px",
@@ -45,33 +45,33 @@ var myConfig = {
             },
             "series":[
                 {
-                    "text":"Emerging Small Business",
+                    "text":"Collab challenge one",
                     "ranks":[1,4,4],
                     "rank":1
                 },
                 {
-                    "text":"AleSmith",
+                    "text":"Collab challenge two",
                     "ranks":[2,2,5],
                     "rank":2
                 },
                 {
-                    "text":"Alpine<br>Beer Company",
+                    "text":"Collab challenge three",
                     "ranks":[3,5,3],
                     "rank":3
                 },
                 {
-                    "text":"Ballast Point<br>Brewing & Spirits",
+                    "text":"Collab challenge four",
                     "ranks":[4,3,1],
                     "rank":4
                 },
                 {
-                    "text":"Green Flash<br>Brewing Company",
+                    "text":"Collab challenge five",
                     "ranks":[3,1,5],
                     "rank":5
                 }
             ],
             "source":{
-                "text":"Source: San Diego Reader"
+                "text":"SOURCE GOES HERE"
             }
         }
     ]
